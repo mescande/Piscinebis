@@ -1,5 +1,3 @@
-#include "all.h"
-
 void ft_print_alphabet(void)
 {
 	char a[30] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n',
@@ -8,10 +6,4 @@ void ft_print_alphabet(void)
 	while (i < 26)
 		ft_putchar(a[i++]);
 	return;
-}
-
-int main(void)
-{
-	ft_print_alphabet();
-	return 0;
 }
